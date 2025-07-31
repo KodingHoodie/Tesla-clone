@@ -13,8 +13,9 @@ A static HTML and CSS recreation of the Tesla.com homepage. This was a layout an
 
 ## 📸 Screenshot
 
+<img width="3032" height="1236" alt="Tesla clone project" src="https://github.com/user-attachments/assets/ab45bb85-91f8-4fad-a189-65fd5f3b8290" />
 
-![Tesla Clone Screenshot](./Tesla%20clone%20project.png)
+
 
 ## 📚 What I Learned
 
