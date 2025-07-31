@@ -1,0 +1,534 @@
+@font-face {
+    font-family: 'TeslaFont';
+    src: url(font/TESLA.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    max-width: 100vw; 
+    
+}
+
+/* ========== Header Section ========== */
+
+.head-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    position: fixed;
+    height: 3rem;
+    z-index: 1000;
+    background: #fff;
+    box-sizing: border-box;
+    width: 100%;
+    overflow: hidden;
+}
+.logo-lettering {
+    font-family: 'Teslafont', Arial, sans-serif;
+    font-size: 20px;
+    margin-left: 30px;
+    letter-spacing: 10px;
+}
+.middle-nav ul {
+    display: flex;   
+    gap: 28px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;  
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.middle-nav ul li {
+  padding: 10px 16px;
+}
+.middle-nav ul li:hover {
+  background-color: #f2f2f2; 
+  cursor: pointer;
+  border-radius: 5px;
+}
+.utility-links {
+    font-size: 20px;
+    margin-right: 30px;
+    letter-spacing: 5px;
+}
+.utility-links i {
+    padding: 5px 7px;
+}
+.utility-links i:hover {
+    background-color: #f2f2f2;
+    border-radius: 4px;   
+}
+
+/* ========== Hero Section ========== */
+
+.hero-container {
+    background-image: url('images/hero.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    width: 100%; 
+    min-height: 80vh;
+    margin-bottom: 50px;   
+}
+.promo-headline {
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 10px;  
+}
+.action-link {
+    font-size: 20px;
+    font-weight: 200;
+    color: #fff;
+    text-underline-offset: 6px;
+}
+.btn {
+    padding-top: 35px;
+}
+button {
+    background-color: #3e6ae1;
+    padding: 13px 60px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+    font-size: medium;
+}
+button:hover {
+    background-color: #3457c0;
+    cursor: pointer;
+}
+.chevrons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.left-arrow {
+    background-color: #fcfafa;
+    padding: 15px;
+    border-radius: 3px;
+    box-shadow: 2px 3px 6px grey;
+    margin-left: 60px;
+    margin-top: 230px;
+    font-size: 1rem;
+    position: relative;
+}
+.right-arrow {
+    background-color: #fcfafa;
+    padding: 15px;
+    border-radius: 3px;
+    box-shadow: 2px 4px 6px grey;
+    margin-right: 60px;
+    margin-top: 230px;
+    font-size: 1rem;
+}
+
+/* =========== Section 3 ========== */
+
+.car-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+    margin-bottom: 70px; 
+}
+.tesla-img {
+    width: 100%;
+   height: auto;
+    border-radius: 7px;
+}
+.style {
+    position: absolute;
+    top: 40px;
+    color: #fff;
+    margin-left: 30px;
+}
+.model {
+    position: absolute;
+    bottom: 120px;
+    font-size: 2.5rem;
+    margin-left: 40px;
+    font-weight: 500;
+    color: #fff;
+}
+.price-link a {
+    position: absolute;
+    bottom: 100px;
+    margin-left: 40px;
+    color: #fff;
+}
+
+.model-3 {
+   width: 100%;
+    height: auto;
+    border-radius: 7px;
+}
+.btn-order {
+    bottom: 30px;
+    position: absolute;
+    margin-left: 30px;   
+}
+.btn-order .info {
+    background-color: #f2f2f2;
+    color: black;
+    height: auto;
+    position: absolute;   
+}
+.info {
+  white-space: nowrap;
+}
+.info:hover {
+    background-color: #e0e0e0;
+}
+
+/* ========= Section 4 ========== */
+
+.card-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 50px; 
+    gap: 1rem; 
+    
+}
+.heroes-card {
+    display: flex;
+    width: 100%;
+    background: #e0e0e0;
+    border-radius: 7px;
+    height: 230px;
+    margin-left: 7px;
+    
+}
+.promo {
+    position: relative;
+    padding: 30px; 
+}
+.promo-title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.promo-text {
+    color: #353839;
+}
+.verify-btn {
+    margin-top: 10px;
+    background-color: #fff;
+    color: #000000;
+    font-size: .8rem;
+}
+.verify-btn:hover {
+    background-color: #f2f2f2;
+}
+.charging-station {
+    border-radius: 0 7px 7px 0;
+    width: 400px;
+}
+.grok-card {
+    display: flex;
+    width: 100%; 
+    margin: 0 auto;
+    background: #e0e0e0;
+    border-radius: 7px;
+    height: 230px; 
+}
+.grok-feature {
+    position: relative;
+    padding: 30px;
+}
+.ai-feature {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    white-space: nowrap;
+}
+.grok-intro {
+    color: #353839;
+}
+.learn-btn {
+    margin-top: 10px;
+    background-color: #fff;
+    color: #000000;
+    font-size: .8rem;
+}
+.learn-btn:hover {
+    background-color: #f2f2f2;
+}
+
+/* ========== Section 5 ========== */
+
+.driving-container {
+  display: flex;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 700px;
+  gap: 1rem;
+  margin-bottom: 50px;
+  
+}
+
+/* Left card */
+.fsd-driving {
+  flex: 0.7;
+  background-image: url('images/fsd-img.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  border-radius: 7px;
+}
+.fsd-title {
+  position: absolute;
+  bottom: 100px;
+  color: #fff;
+  font-size: 50px;
+  left: 40px;
+}
+.btn-fsd {
+  position: absolute;
+  bottom: 25px;
+  color: #fff;
+  left: 40px;
+}
+.fsd-learn-btn {
+  background: #e0e0e0;
+  padding: 12px 45px;
+  margin-left: 9px;
+  border-radius: 5px;
+  color: #000000;
+}
+.fsd-learn-btn:hover {
+    background: #dddd;
+}
+/* Right card */
+.car-delivery {
+  flex: 0.3;
+  background-image: url('images/car-delivery.avif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7px;
+}
+.cd-title {
+    position: absolute;
+    font-size: 50px;
+    color: #fff;
+    left: 20px;
+    bottom: 100px;
+}
+.btn-watch {
+    bottom: 30px;
+    position: absolute;
+    left: 20px;
+}
+
+/* ========== Section 6 ========== */
+
+.charging-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.map-img {
+  width: 100%;
+  display: block;
+  max-width: 2560px;
+  height: auto;
+}
+.map-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 40px;
+  flex-wrap: wrap; 
+}
+
+/* LEFT SIDE */
+.map-info {
+  max-width: 50%;
+}
+
+.charging-title {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.charging-description {
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  background: #000000;
+  color: white;
+  padding: 10px 40px;
+  margin-right: 10px;
+  border: none;
+  font-size: 15px;
+}
+
+.btn-secondary {
+  color: #000000;
+  background: #e0e0e0;
+  padding: 10px 40px;
+  border: none;
+  font-size: 15px;
+}
+.btn-secondary:hover {
+    background: #dddd;
+}
+
+/* RIGHT SIDE */
+.right-icons {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.charger-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.charger-top {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.superchargers,
+.destination {
+  font-size: 50px;
+  font-weight: bold;
+}
+.charger-type {
+    margin-left: -80px;
+    font-size: 20px;
+    margin-top: 10px;
+    color: #555555;
+}
+.fa-bolt {
+  color: red;
+  font-size: 40px;
+}
+.charger-destination {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #555555;
+}
+.fa-plug {
+  color: grey;
+  font-size: 40px;
+}
+
+/* ========== Section 7 ========== */
+
+.solar-container {
+  display: flex;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 600px;
+  margin-top: 80px;
+  margin-bottom: 150px;
+  gap: 20px;
+}
+.solar {
+  flex: 0.6;
+  background-image: url('images/solar-panels.png.avif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  border-radius: 7px;
+}
+.solar-info {
+  position: absolute;
+  bottom: 25px;
+  color: #fff;
+  font-size: 50px;
+  left: 40px;
+}
+.solar-description {
+  font-size: 20px;
+  margin: 5px 0 10px 0;
+}
+.powerwall {
+  flex: 0.4;
+  background-image: url('images/power-wall.avif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7px;
+}
+.powerwall-info {
+  position: absolute;
+  bottom: 25px;
+  color: #fff;
+  font-size: 50px;
+  left: 40px;
+}
+.wall-info {
+  font-size: 20px;
+  margin: 5px 0 10px 0;
+}
+.btn-learn {
+  background-color: #e0e0e0;
+  color: #353839;
+}
+
+/* ========== Section 8 ========== */
+
+.disclaimer {
+  text-align: center;
+  color: #777777;
+  font-size: 12px;
+  margin-bottom: 100px;
+  line-height: 3.0;
+}
+
+/* ========== Section 9 ========== */
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.nav-container ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  font-size: 12px;
+}
+li a {
+  color: #777777;
+  text-decoration: none;
+}
